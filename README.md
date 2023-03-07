@@ -7,7 +7,8 @@ Saya Mia Karisma Haq NIM [2102165] mengerjakan soal Latihan Praktikum-4 dalam ma
 Buatlah program berbasis OOP menggunakan bahasa pemrograman C++ dan Python  yang mengimplementasikan konsep inheritance, composition, dan array of object pada kelas Mahasiswa, Human, Sivitas Akademik, Dosen, Course, Program Studi.
 
 ## Desain Program
-![Latprak3 drawio (3)](https://user-images.githubusercontent.com/100817609/223450527-20d3c834-429f-4349-9e10-9a65de922841.png)
+![Latprak3 drawio (4)](https://user-images.githubusercontent.com/100817609/223473263-8f399429-bcde-4a80-aa63-2ca3db8e93c2.png)
+
 
 ## Penjelasan Desain Program :
 Program terdiri dari 7 kelas, yaitu kelas Mahasiswa, Human, Sivitas Akademik, Dosen, Course, Program Studi, Tabel. Terdapat 4 objek yang sama yaitu Human, Sivitas Akademik, Mahasiswa, dan Dosen yaitu sama-sama manusia. Sehingga ketiga kelas tersebut mengimplementasikan konsep Multi-level Inheritance. Terdapat pula objek yang memiliki objek lain, seperti objek Course memiliki objek Dosen Pengampu dan objek ProgramStudi memiliki objek Course serta objek Mahasiswa. Sehingga Kedua kelas tersebut mengimplementasikan konsep composition. Karena setiap program studi memiliki banyak objek mahasiswa dan mata kuliah, maka digunakan array of object untuk menampung daftar mahasiswa dan mata kuliah.
@@ -30,6 +31,4 @@ Untuk alur program, pertama akan ditampilkan dashboard yang berisi daftar fitur 
 
 ## Dokumentasi Program
 ![Screenshot (1)](https://user-images.githubusercontent.com/100817609/223471906-a380963c-b381-4470-8291-58b37b136d18.png)
-![Screenshot (2)](https://user-images.githubusercontent.com/100817609/223471944-e6138014-67aa-4ddb-8025-d9c613726674.png)
-![Screenshot (3)](https://user-images.githubusercontent.com/100817609/223471968-612ebaca-736e-4aa2-9de8-7d1cd35a284f.png)
 ![Screenshot (4)](https://user-images.githubusercontent.com/100817609/223471981-2d69f029-5997-4daa-b088-d80688b8df48.png)
